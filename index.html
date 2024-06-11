@@ -1,55 +1,85 @@
-<!--
-  Hit RUN to see this project in action!
-  
-  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
--->
-
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Replit</title>
-		<link href="style.css" rel="stylesheet" type="text/css" />
-	</head>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<body>
-		<main>
-			<img class = "homeImage" src="t/Images/IMG_0767.jpg" alt="myPicture">
-			<h1 class="title">Hello, My name is Jaideep</h1>
-			<section class="grid">
-				<a href="blogHome.html">
-					<h2> Blog </h2>
-				</a>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/92a0a455ad.js" crossorigin="anonymous"></script>
 
-				<a href="https.google.com">
-					<h2>Github </h2>
-				</a>
-				
-				<a href="https.google.com">
-					<h2>Resume </h2>
-				</a>
-			</section>
-			<p class="description">
-				About me: Lorem ipsum dolor sit amet,
-				 consectetur adipiscing elit, 
-				 sed do eiusmod tempor incididunt 
-				 ut labore et dolore magna aliqua. 
-				 Ut enim ad minim veniam, quis 
-				 nostrud exercitation ullamco 
-				 laboris nisi ut aliquip ex ea 
-				 commodo consequat. 
-				 Duis aute irure dolor in 
-				 reprehenderit in voluptate 
-				 velit esse cillum dolore eu 
-				 fugiat nulla pariatur. Excepteur 
-				 sint occaecat cupidatat non proident, 
-				 sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
+    <title>Hello, world!</title>
+  </head>
 
-			
-		</main>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Jaideep</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogHome.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-		<script type="module" src="script.js"></script>
-	</body>
+      <div class="HomePage">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <img src="Images/IMG_0767.jpg" class="profile_picture">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <h1 class="Title">Hello, I'm Jaideep</h1>
+              <h3 class="Subtitle">I'm a Computer Science Major at Georgia Tech and an enthusiast for Technology</h3>
+              <h3 class="Subtitle">Welcome to my Website!</h3>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid about" id="about">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <h1>About Me</h1>
+            <h3>Hello! I'm Jaideep Lingineni, a Computer Science major at Georgia Tech with a deep passion for hardware, electronics, and programming. From a young age, I've been captivated by the world of technology and the mechanics behind it. This fascination led me to pursue a degree in Computer Science at Georgia Tech, where I dive into the intricacies of programming, data structures, and algorithms. When I'm not immersed in my studies or coding, you'll often find me working on hardware projects. I love repairing broken electronics and breathing new life into them or creating something entirely new. Understanding how things work and making them better is a driving force in my life.</h3>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+
+      <div class="container-fluid footer">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <h1>Social Media</h1>
+            <a class="fa-brands fa-github fa-2x" href="https://github.com/jailingineni"></a>
+            <a class="fa-brands fa-linkedin-in fa-2x" href="https://www.linkedin.com/in/jaideep-lingineni"></a>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
 </html>

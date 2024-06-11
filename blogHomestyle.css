@@ -1,70 +1,46 @@
-html,
+html {
+  scroll-behavior: smooth;
+
+}
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-main {
-  min-height: 100vh;
-  padding: 4rem 2rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-
-
-
-.grid {
-  display: flex;
-  gap: 15px;
-
-}
-
-.grid1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 800px;
+.navbar {
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 50px;
 }
 
 .card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 20px;
+
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.footer {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  background-color: #4b4b4b;
+  padding: auto;
+  padding-bottom: 5%; /* Reduced padding */
+}
+.footer h1 {
+  margin-top: 2%;
+  color:white;
+  font-size: 30px;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.footer a:hover {
+  color:yellow !important;
 }
+.fa-github {
+  margin-top: 2%;
+  color: white !important;
+}
+
+.fa-linkedin-in {
+  color: white !important;
+}
+
