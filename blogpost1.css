@@ -11,17 +11,21 @@ body {
     width: 100%;
     z-index: 1;
     margin-bottom: 2%;
+    font-family: "Inconsolata", monospace;
   }
 
   .blog h1 {
 
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 
   }
-  .profile_picture {
-    border-radius: 50px;
+  .working-picture {
     width: 100%;
     height: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-right: 200%;
+  }
+  .Subtitle {
+    text-align: center;
   }
