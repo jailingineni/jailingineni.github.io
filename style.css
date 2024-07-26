@@ -13,19 +13,19 @@ body {
   
 }
 .HomePage {
-  background-color: lightblue;
+  background-color: #4b4b4b;
   padding-bottom: 10%;
 }
 .profile_picture {
   border-radius: 50px;
   width: 100%;
   height: auto;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
 .Title {
   font-family: "Inconsolata", monospace;
-  margin-top: 70%;
+  margin-top: 40%;
   margin-bottom: 20px;
 
 
@@ -39,7 +39,6 @@ margin-bottom: 20px;
 
 }
 .about {
-  margin-top: 5%;
   text-align: center;
   font-family:  "Inconsolata", monospace;;
 }
@@ -48,37 +47,58 @@ margin-bottom: 20px;
   margin-top: 1%;
   padding-bottom: 20%;
   font-size: 20px;
-  color: #5e5e5e;
+  color: white;
 
 }
 .custom-text {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .footer {
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   font-family:  "Inconsolata", monospace;;
   background-color: #4b4b4b;
-  padding-bottom: 20%;
+  padding: 20px;
   
 }
-.footer h1 {
-  margin-top: 2%;
+.copyrightcol {
   color:white;
-  font-size: 30px;
 }
 
 .footer a:hover {
   color:yellow !important;
 }
 .fa-github {
-  margin-top: 20%;
-  margin-left: 10%;
-  margin-right: 20%;
-  color: black !important;
+  color: white !important;
 }
 
 .fa-linkedin-in {
-  color: black !important;
+  color: white !important;
+  margin: 30px;
 }
 
+.favicons {
+  display: flex; 
+  align-items: center;
+  justify-content: left;
+  margin-left: 10%;
+  
+}
+
+.AboutMeText {
+  font-size: 17px;
+  color: black !;
+}
+
+.AboutMeImage {
+  width: 90%;
+  height: 90%;
+  aspect-ratio: auto;
+  margin-top: 40px;
+}
+.about {
+  background-color: gray;
+}
